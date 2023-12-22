@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-yyaz
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/qijing/push-pyxis-imsz-tenant/appstudio/dc-metro-map-yyaz@sha256:e1886b9cc22c858ba50182d249a6a7774d1e302c8f5a0a34b06b8480f5277003
         name: my-nodejs
         ports:
         - containerPort: 3001
